@@ -492,4 +492,5 @@ if run_button:
 
     except Exception as e:
         st.error(f"❌ An unexpected error occurred. Please try again.")
+
         st.exception(e) # This will print the full traceback for debugging
